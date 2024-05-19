@@ -5,10 +5,10 @@ module.exports = {
   entry: { index: "./src/ts/index.ts" },
   module: {
     rules: [
-      //   {
-      //     test: /\.html$/i,
-      //     use: ["html-loader"],
-      //   },
+      {
+        test: /\.html$/i,
+        use: ["html-loader"],
+      },
       {
         test: /\.ts$/i,
         use: "ts-loader",
