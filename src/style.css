@@ -192,3 +192,30 @@ footer > p > a {
   text-decoration: none;
   border-bottom: 1px solid;
 }
+
+.menu {
+  font-size: 2.4rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 2fr;
+  grid-auto-rows: minmax(1fr, 300px);
+  gap: 1em 1.5em;
+  margin-bottom: 1em;
+}
+
+.item-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+
+.item-price {
+  font-size: 1.4rem;
+}
+
+.imageFit {
+  height: 100%;
+  width: 100%;
+}
