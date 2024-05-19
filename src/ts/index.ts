@@ -1,9 +1,9 @@
 import "../style.css"
-import setupPage from "./onpageload"
-import unloadcontent from "./unloadcontent"
-import loadhomepage from "./loadhomepage"
+import setupPage from "./onPageLoad"
+import unloadContent from "./unloadContent"
+import loadHomepage from "./loadHomepage"
 
 setupPage()
-loadhomepage()
+loadHomepage()
 
 let currentPage = "home"
