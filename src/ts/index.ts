@@ -1,3 +1,4 @@
 import "../style.css"
+import setupPage from "./onpageload"
 
-console.log("Hello")
+setupPage()
