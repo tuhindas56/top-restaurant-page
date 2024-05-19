@@ -24,12 +24,12 @@ export default () => {
 
   footer.innerHTML = `
     <p>
-    Site built by
+    site built by
     <a href="https://github.com/tuhindas56/top-restaurant-page/" target="_blank" rel="noopener noreferrer">Tuhin Das</a> 
     | 
-    Sushi Icon by <a href="https://www.freepik.com/icon/sushi_2252075#fromView=keyword&page=1&position=0" target="_blank" rel="noopener noreferrer"> justicon</a>
+    sushi icon by <a href="https://www.freepik.com/icon/sushi_2252075#fromView=keyword&page=1&position=0" target="_blank" rel="noopener noreferrer"> justicon</a>
     |
-    Images from <a href="https://pexels.com/" target="_blank" rel="noopener noreferrer">Pexels</a>
+    images from <a href="https://pexels.com/" target="_blank" rel="noopener noreferrer">Pexels</a>
     </p>`
 
   document.body.appendChild(header)

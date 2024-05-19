@@ -71,7 +71,6 @@ body {
 header,
 footer {
   padding: 1em 0;
-  border: 1px solid;
   background-color: #fff;
 }
 header {
@@ -143,7 +142,7 @@ header nav {
   padding: 2em;
   max-width: 750px;
   margin-inline: auto;
-  background-color: #fff;
+  background-color: #fffffff3;
   border-radius: 6px;
 }
 
