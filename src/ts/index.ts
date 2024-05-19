@@ -1,10 +1,10 @@
 import "../style.css"
 import setupPage from "./onPageLoad"
 import unloadContent from "./unloadContent"
-import loadHomepage from "./loadHomepage"
-import loadContactPage from "./loadContactPage"
+import loadHome from "./loadHome"
+import loadContact from "./loadContact"
 
 setupPage()
-loadContactPage()
+loadContact()
 
 let currentPage = "contact"
