@@ -1,8 +1,11 @@
 import "../style.css"
 import setupPage from "./onPageLoad"
-import unloadContent from "./unloadContent"
 import loadHome from "./loadHome"
-import loadMenu from "./loadMenu"
-import loadContact from "./loadContact"
+import switchCurrentPage from "./switchCurrentPage"
 
 setupPage()
+loadHome()
+
+const buttons = document.querySelectorAll("button.nav")
+
+buttons.forEach((button) => button.addEventListener("click", switchCurrentPage))
